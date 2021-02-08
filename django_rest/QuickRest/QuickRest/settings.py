@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
+=======
+    'rest_framework',
+>>>>>>> e838fc0a0c602b2d7c5f0f40fb6791d499eca891
 ]
 
 MIDDLEWARE = [
@@ -100,6 +104,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+<<<<<<< HEAD
+=======
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
+}
+>>>>>>> e838fc0a0c602b2d7c5f0f40fb6791d499eca891
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
